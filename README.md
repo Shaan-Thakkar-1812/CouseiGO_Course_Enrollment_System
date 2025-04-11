@@ -55,17 +55,19 @@ A complete Online Course Enrollment System built using **ASP.NET Core MVC**, **I
 ### 📁 Clone the Repository
 
 git clone https://github.com/shaan-Thakkar-1812/CourseEnrollmentSystem.git
+
 cd CourseEnrollmentSystem
 
 ## 🔧 Set Up the Database
 Open Package Manager Console in Visual Studio
+
 RUN
 Update-Database
+
 This creates the required Identity tables and application schema.
 
 ## 🧪 Seed Roles and Admin
-The app automatically seeds:
-Admin and Student roles
+The app automatically seeds : Admin and Student roles
 
  ## Run the Application
 Press F5 or Ctrl+F5 in Visual Studio to launch
@@ -116,12 +118,16 @@ CourseEnrollmentSystem/
 
 ## 📈 Future Enhancements
 Stripe/PayPal Payment Gateway Integration
+
 Course Completion Certificates
+
 Student Profile & Edit Options
+
 Deployment on Azure/AWS
 
 ## 👨‍💻 Author
 Shaan Thakkar
+
 📧 Email: shaanthakkar4@gmail.com
 
 ## Screenshots
