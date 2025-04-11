@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero Section -->
+<div class="bg-primary text-white text-center py-5 mb-5 shadow-lg">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to CourseiGo 🎓</h1>
+        <p class="lead">Empower your learning journey. Discover, enroll, and master new skills today!</p>
+        <a href="@Url.Action("Index", "Courses")" class="btn btn-light btn-lg mt-3 px-4">Browse Courses</a>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="container mb-5">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">📚 Diverse Courses</h5>
+                    <p class="card-text">Explore a variety of high-quality courses to boost your knowledge.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">🧑‍🎓 Personalized Dashboard</h5>
+                    <p class="card-text">Track your enrollments and progress with ease and simplicity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">🔐 Secure Payments</h5>
+                    <p class="card-text">Pay with confidence using our encrypted and fast checkout system.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center mb-5">
+    <h3 class="fw-semibold">Ready to begin your learning adventure?</h3>
+    <a href="@Url.Action("Register", "Account")" class="btn btn-success btn-lg mt-3">Get Started</a>
+</div>

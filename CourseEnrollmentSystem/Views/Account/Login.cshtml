@@ -1,0 +1,51 @@
+﻿@model CourseEnrollmentSystem.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow p-4" style="width: 400px;">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold text-primary">Login</h2>
+            <p class="text-muted">Access your account</p>
+        </div>
+
+        @* ✅ Display form-wide errors *@
+        @if (!ViewData.ModelState.IsValid && ViewData.ModelState[string.Empty] != null)
+        {
+            <div class="alert alert-danger">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </div>
+        }
+
+        <form asp-action="Login" method="post" novalidate>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label fw-semibold">Email</label>
+                <input asp-for="Email" class="form-control" placeholder="Enter your email" autofocus autocomplete="email" />
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label fw-semibold">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" autocomplete="off" />
+                <span asp-validation-for="Password" class="text-danger small"></span>
+            </div>
+
+            <div class="form-check mb-3">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label">Remember Me</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 fw-semibold">Login</button>
+
+            <div class="text-center mt-3">
+                <a asp-action="Register" class="text-decoration-none">Don't have an account? Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

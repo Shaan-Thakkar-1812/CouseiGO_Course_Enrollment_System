@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">Welcome to Admin Dashboard</h2>
+        <p class="text-muted">Here you can manage students, courses, and view insights.</p>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h5 class="card-title">👥 Total Students</h5>
+                    <h3 class="fw-bold text-primary">@ViewBag.TotalStudents</h3>
+                    <p class="text-muted">Registered student accounts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h5 class="card-title">📚 Total Courses</h5>
+                    <h3 class="fw-bold text-success">@ViewBag.TotalCourses</h3>
+                    <p class="text-muted">Available in catalog</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h5 class="card-title">📝 Total Enrollments</h5>
+                    <h3 class="fw-bold text-danger">@ViewBag.TotalEnrollments</h3>
+                    <p class="text-muted">Courses enrolled by students</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
