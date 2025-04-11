@@ -74,19 +74,17 @@ Press F5 or Ctrl+F5 in Visual Studio to launch
 
 ## 📚 Folder Structure
 
+```
 CourseEnrollmentSystem/
-│
 ├── Controllers/
 │   ├── AccountController.cs
 │   ├── AdminController.cs
 │   └── StudentController.cs
-│
 ├── Models/
 │   ├── ApplicationUser.cs
 │   ├── Course.cs
 │   ├── Enrollment.cs
 │   └── Visitor.cs
-│
 ├── Views/
 │   ├── Account/
 │   │   ├── Login.cshtml
@@ -98,24 +96,20 @@ CourseEnrollmentSystem/
 │   └── Shared/
 │       ├── _Layout.cshtml
 │       └── _ValidationScriptsPartial.cshtml
-│
 ├── Data/
 │   └── ApplicationDbContext.cs
-│
 ├── ViewModels/
 │   ├── LoginViewModel.cs
 │   └── RegisterViewModel.cs
-│
 ├── wwwroot/
 │   ├── css/
 │   ├── js/
 │   └── lib/
-│
 ├── appsettings.json
 ├── Program.cs
 ├── Startup.cs (if applicable)
 └── CourseEnrollmentSystem.csproj
-
+```
 ## 📈 Future Enhancements
 Stripe/PayPal Payment Gateway Integration
 
