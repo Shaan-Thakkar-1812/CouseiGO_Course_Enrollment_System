@@ -1,4 +1,4 @@
-## 🎓 Course Enrollment System
+![Screenshot 2025-04-11 130623](https://github.com/user-attachments/assets/e0cc9b85-dba9-4eef-a53d-c90febe20d76)## 🎓 Course Enrollment System
 
 A complete Online Course Enrollment System built using **ASP.NET Core MVC**, **Identity**, **ADO.NET**, and **SQL Server LocalDB**. This project allows students to browse and purchase courses, and provides an admin dashboard to manage users and course data efficiently.
 
@@ -56,29 +56,21 @@ A complete Online Course Enrollment System built using **ASP.NET Core MVC**, **I
 
 git clone https://github.com/shaan-Thakkar-1812/CourseEnrollmentSystem.git
 cd CourseEnrollmentSystem
-🔧 Set Up the Database
-Open Package Manager Console in Visual Studio
 
+## 🔧 Set Up the Database
+Open Package Manager Console in Visual Studio
 RUN
 Update-Database
 This creates the required Identity tables and application schema.
 
-🧪 Seed Roles and Admin
+## 🧪 Seed Roles and Admin
 The app automatically seeds:
 Admin and Student roles
 
- Run the Application
+ ## Run the Application
 Press F5 or Ctrl+F5 in Visual Studio to launch
-![Screenshot 2025-04-11 130513](https://github.com/user-attachments/assets/7c795a97-24a4-4528-a494-582423624200)
 
-
-![Screenshot 2025-04-11 130623](https://github.com/user-attachments/assets/fc42ea2b-5a3f-46c9-85d9-3ca7bafdf52c)
-![Screenshot 2025-04-11 130559](https://github.com/user-attachments/assets/326f0393-4d48-4e18-87e7-33988545cbe![Upload![Screenshot 2025-04-11 130729](https://github.com/user-attachments/assets/2f52b6e3-d43a-42b6-89dc-4c87af7ae9d1)
-![Screenshot 2025-04-11 130658](https://github.com/user-attachments/assets/9ac65632-0af0-45a7-8bc9-1cea381ce0ed)
-ing Screenshot 2025-04-11 130641.png…]()
-6)
-
-📚 Folder Structure
+## 📚 Folder Structure
 
 CourseEnrollmentSystem/
 │
@@ -90,21 +82,61 @@ CourseEnrollmentSystem/
 ├── Models/
 │   ├── ApplicationUser.cs
 │   ├── Course.cs
-│   └── Enrollment.cs
+│   ├── Enrollment.cs
+│   └── Visitor.cs
 │
 ├── Views/
 │   ├── Account/
+│   │   ├── Login.cshtml
+│   │   └── Register.cshtml
 │   ├── Admin/
+│   │   └── Dashboard.cshtml
 │   ├── Student/
+│   │   └── Dashboard.cshtml
 │   └── Shared/
+│       ├── _Layout.cshtml
+│       └── _ValidationScriptsPartial.cshtml
 │
 ├── Data/
 │   └── ApplicationDbContext.cs
 │
-├── wwwroot/
-│   └── css/js/assets
+├── ViewModels/
+│   ├── LoginViewModel.cs
+│   └── RegisterViewModel.cs
 │
-├── Program.cs
+├── wwwroot/
+│   ├── css/
+│   ├── js/
+│   └── lib/
+│
 ├── appsettings.json
-└── README.md
+├── Program.cs
+├── Startup.cs (if applicable)
+└── CourseEnrollmentSystem.csproj
+
+## 📈 Future Enhancements
+Stripe/PayPal Payment Gateway Integration
+Course Completion Certificates
+Student Profile & Edit Options
+Deployment on Azure/AWS
+
+## 👨‍💻 Author
+Shaan Thakkar
+📧 Email: shaanthakkar4@gmail.com
+
+## Screenshots
+
+![Screenshot 2025-04-11 130513](https://github.com/user-attachments/assets/be793675-fd95-4857-8416-16faeeae23f0)
+
+![Screenshot 2025-04-11 130559](https://github.com/user-attachments/assets/8ebde50d-4cbf-47ad-9c7e-d1663b4cafc9)
+
+
+![Screenshot 2025-04-11 130623](https://github.com/user-attachments/assets/ce335db4-5e9a-4eae-a15f-d2e3d2f4c997)
+
+
+![Screenshot 2025-04-11 130641](https://github.com/user-attachments/assets/032bd5fb-6618-447b-92af-a95239d1cd26)
+
+![Screenshot 2025-04-11 130658](https://github.com/user-attachments/assets/f8434814-c541-4298-9f7e-fd16bfd32676)
+
+![Screenshot 2025-04-11 130729](https://github.com/user-attachments/assets/61b9ad4c-ad4d-42b9-8807-0985df730d67)
 
