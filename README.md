@@ -1,4 +1,4 @@
-![Screenshot 2025-04-11 130623](https://github.com/user-attachments/assets/e0cc9b85-dba9-4eef-a53d-c90febe20d76)## 🎓 Course Enrollment System
+## 🎓 Course Enrollment System
 
 A complete Online Course Enrollment System built using **ASP.NET Core MVC**, **Identity**, **ADO.NET**, and **SQL Server LocalDB**. This project allows students to browse and purchase courses, and provides an admin dashboard to manage users and course data efficiently.
 
@@ -146,3 +146,4 @@ Shaan Thakkar
 
 ![Screenshot 2025-04-11 130729](https://github.com/user-attachments/assets/61b9ad4c-ad4d-42b9-8807-0985df730d67)
 
+![Screenshot 2025-04-11 130623](https://github.com/user-attachments/assets/e0cc9b85-dba9-4eef-a53d-c90febe20d76)
