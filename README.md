@@ -1,4 +1,4 @@
-## 🎓 Course Enrollment System
+## 🎓 COURSEiGO-Course Enrollment System
 
 A complete Online Course Enrollment System built using **ASP.NET Core MVC**, **Identity**, **ADO.NET**, and **SQL Server LocalDB**. This project allows students to browse and purchase courses, and provides an admin dashboard to manage users and course data efficiently.
 
